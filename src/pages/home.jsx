@@ -24,13 +24,13 @@ const home = () => {
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                   <div className='back-details'>
-                  <p className='mb-3'>Trade in offer</p>
-                  <h1>Super Value Deals</h1>
-                  <h2>On all products</h2>
+                  <p className='mb-3'>En Oferta ahora</p>
+                  <h1>Super Compra</h1>
+                  <h2>Todos los productos en uno</h2>
 
-                  <p className='mb-3'>Save more today with Apneck</p>
+                  <p className='mb-3'>Ahorra mas con nosotros</p>
 
-                  <Link to='/shop' className='btn btn-primary' id='button-link'>Shop Now</Link>
+                  <Link to='/shop' className='btn btn-primary' id='button-link'>Compra ahora</Link>
                   </div>
               </div>
             </div>
@@ -45,8 +45,8 @@ const home = () => {
     <div className="container-xxl">
       <div className="row">
         <div className="col-12 text-center">
-          <h1>Featured Products</h1>
-          <p>All Weather New Modern Designs</p>
+          <h1>Productos Destacados</h1>
+          <p>Todos los disenos</p>
         </div>
        <Featuredproducts />
       </div>
@@ -57,9 +57,9 @@ const home = () => {
     <div className="container-xxl">
       <div className="row ">
         <div className="repair-details text-center align-items-center">
-          <h5 className='mb-3 text-white'>Repair Services</h5>
-          <h2 className='mb-3 text-white'>On 70% Off on All Products And Accessories</h2>
-          <button>Explore Now</button>
+          <h5 className='mb-3 text-white'>Ofertas por hoy</h5>
+          <h2 className='mb-3 text-white'>Un 70% en todos nuestros productos y accesorios</h2>
+          <button>Explora mas</button>
         </div>
       </div>
     </div>
@@ -69,8 +69,8 @@ const home = () => {
     <div className="container-xxl">
       <div className="row">
         <div className="d-flex align-items-center justify-content-center flex-column">
-          <h1>New Arrivals</h1>
-          <p>Your Best Designer Outfits</p>
+          <h1>Nuevas Tendencias</h1>
+          <p>Los mejores disenos</p>
         </div>
         <Newarrivals />
       </div>
@@ -87,11 +87,11 @@ const home = () => {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">Hot Deals</h5>
+                  <h5 className="card-title">Mas Comprado</h5>
                   <h2 className="card-text mb-2">Buy One get One free.</h2>
                   <p className="card-text mb-2"><small className="text-body-secondary">The latest best collection in our closet <br />Feel Cute with our outfits</small></p>
                   <Link to='blog'>
-                  <button className='mt-4'>Learn more</button>
+                  <button className='mt-4'>Ver Mas</button>
                   </Link>
                 </div>
               </div>
@@ -108,11 +108,11 @@ const home = () => {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">Season-In</h5>
+                  <h5 className="card-title">En Temporada</h5>
                   <h2 className="card-text mb-2">All Weather Attire</h2>
                   <p className="card-text mb-2"><small className="text-body-secondary">It never matter which season it is <br />We got you covered</small></p>
                   <Link to='blog'>
-                  <button className='mt-4'>Learn more</button>
+                  <button className='mt-4'>Ver Mas</button>
                   </Link>
                 </div>
               </div>
@@ -128,16 +128,16 @@ const home = () => {
   <div className="container-xxl">
     <div className="row">
       <div className="col-12 text-center">
-        <h1 className="mb-3">What our customers say...</h1>
-        <p className="mb-4">Our customers never miss a bit on providing feedback</p>
+        <h1 className="mb-3">Que dicen de nosotros...</h1>
+        <p className="mb-4">comentarios de nuestro clientes</p>
       </div>
       <div className="col-md-3 col-sm-6 mb-4">
         <div className="card">
           <img src={blog1} className="card-img-top img-fluid" alt="..." />
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <p className="card-text">Este es un comentario de ejemplo.</p>
             <Link to='about'>
-            <button className="mt-4">Learn more</button>
+            <button className="mt-4">Ver mas</button>
             </Link>
           </div>
         </div>
@@ -147,9 +147,9 @@ const home = () => {
         <div className="card">
           <img src={blog2} className="card-img-top img-fluid" alt="..." />
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <p className="card-text">Este es un comentario de ejemplo.</p>
             <Link to='about'>
-            <button className="mt-4">Learn more</button>
+            <button className="mt-4">Ver mas</button>
             </Link>
           </div>
         </div>
@@ -159,9 +159,9 @@ const home = () => {
         <div className="card">
           <img src={blog3} className="card-img-top img-fluid" alt="..." />
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <p className="card-text">Este es un comentario de ejemplo.</p>
             <Link to='about'>
-            <button className="mt-4">Learn more</button>
+            <button className="mt-4">Ver mas </button>
             </Link>
           </div>
         </div>
@@ -171,9 +171,9 @@ const home = () => {
         <div className="card">
           <img src={blog4} className="card-img-top img-fluid" alt="..." />
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <p className="card-text">Este es un comentario de ejemplo.</p>
             <Link to='about'>
-            <button className="mt-4">Learn more</button>
+            <button className="mt-4">Ver mas</button>
             </Link>
           </div>
         </div>
